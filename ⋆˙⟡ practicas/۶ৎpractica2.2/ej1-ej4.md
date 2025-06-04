@@ -29,9 +29,13 @@ procedure suma(var num1: integer; var num2:integer);
 -----------------------
 a. 
 i = 1 → suma(1, x): x := 1 + 10 = 11
+
 i = 2 → suma(2, x): x := 2 + 11 = 13
+
 i = 3 → suma(3, x): x := 3 + 13 = 16
+
 i = 4 → suma(4, x): x := 4 + 16 = 20
+
 i = 5 → suma(5, x): x := 5 + 20 = 25
 
 imprime 25 ! 
