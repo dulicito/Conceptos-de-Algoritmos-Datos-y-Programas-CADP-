@@ -27,7 +27,8 @@ c. ¿Qué sucede si se cambia el encabezado del procedure por:
 procedure suma(var num1: integer; var num2:integer);
 
 -----------------------
-a. 
+a.
+
 i = 1 → suma(1, x): x := 1 + 10 = 11
 
 i = 2 → suma(2, x): x := 2 + 11 = 13
@@ -77,7 +78,6 @@ end.
 
 a. ¿Qué imprime si se lee la siguiente secuencia de valores? 250, 35, 100
 
-imprime:
 pares: 4
 impares: 4 
 
