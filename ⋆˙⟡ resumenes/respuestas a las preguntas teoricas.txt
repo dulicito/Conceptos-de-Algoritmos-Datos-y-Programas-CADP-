@@ -1,0 +1,101 @@
+1)a) el concepto de eficiencia es el encargado de determinar el tiempo de ejecucion que un programa realiza, asi como la cantidad de memoria que este necesita, estos datos se obtinen mediante su calculo
+
+b)el tiempo que este toma para ejecutarse, ademas de la cantidad de memoria que requiere para su funcionamiento, siendo que un programa es mas eficiente mientro menos de estos recursos utilice
+
+c)en cuanto a la memoria, esta se calcula en base a el costo de memoria que poseen sus variables utilizadas (en bytes) 
+por otro lado el tiempo de ejecucion se calcula teniendo en cuenta que cada instruccion requiere cierta cantidad de tiempo por cada accion, siendo asi, se utiliza la medida "udt" (unidad de tiempo)
+
+d)no, ya que una solucion de 20 lineas de codigo puede poseer las mismas acciones que una de 10 o menos, pero el tiempo y la memoria que ambas gasten sera diferente
+
+e)si, ya que estas estructuras determinan la forma en la que se movilizan los datos, pudiendo ser, por ejemplo, mas eficiente un vector a una lista, a la hora de guardar cantidad finita de informacion
+
+f)pese a que la documentacion es beneficiosa para el mantenimiento del programa, su utilizacion por si misma no ejerce eficiencia alguna
+
+g)si, ya que gracias a esto se puede utilizar la reutilizacion de modulos ya utilizados, ahorrando nuevas lineas de codigo y uso de memoria
+
+
+2)a)la modularizacion es la accion de cortar funciones del programa principal para utilizarlas en modulos aparte, para asi ser llamados cuando se requieran.
+esto trae ventajas como la reusabilidad de modulos,  pudiendo reducir el uso de memoria, ya que las variables que los modulos posean no son siempre requeridas en el programa principal
+
+b)pascal dispone de 2 modulos diferentes, function y procedure y sus diferencias mas notorias son:
+-function, a diferencia de procedure permite devolver valores de diferente parametro(char,string, integer,etc)a los parametros introducidos en el
+-la capacidad de function de ser llamado dentro de una funcion, ya sea if, write, while,etc, para de esta forma omitir el crear una variable para obtener dicho valor
+-la posibilidad que posee procedure para devolver mas de una variable al programa principal
+
+c)/d)no todo modulo de proceso puede representarse como un podulo funcion, pero todo modulo de funcion puede repredsentarse como modulo de proceso, esto debido a que la funcion solo puede devolver 1 valor a diferencia de el proceso
+
+e) el modulo mas comun que poseen los procesos para comunicarse, es a travez de sus parametros, pese a esto tambien existe la posibilidad de comunicarse mediante variables globales
+
+f)una variable puede poseer un alcance local o global, aunque las unicas con caracter global son aquellas declaradas como variables globales, por otro lado los parametros poseen un caracter local, pudiendo solo utilizarse en el proceso en el que fueron declaradas o en aquellos procesos a los que entran como parametros.
+en cambio, las variables globales pueden ser modificadas por todo el programa, sin necesidad de ser declaradas como parametros en ningun momento
+
+g)las variables globales pueden ser llamadas desde cualquier parte del programa, sin necesidad de ser declaradas ni introducidas como parametros en ningun momento.
+por otro lado, las variables locales deben ser declaradas al comienzo de la ejecucion de cada modulo, asi como del "main"
+
+h) un parametro es la forma que posee el programa principal y los procesos (o modulos) para comunicarse entre si e intercambiar datos
+
+i)el parametro por valor es justamente el valor que este parametro poseia en el momento en que fue enviado, por lo que aunque el programa lo modifique, la variable que fue enviada como parametro no se modifica, por otro lado en los parametros por referencia, la direccion de la variable es la enviada, por lo que al modificar esta, la variable del programa modificaria tambien su valor
+
+j)esto es util debido a que de esta forma el programador posee un medio por el cual comunicar los datos entre los distintos procesos y el programa principal
+
+k)la reusabilidad, es la capacidad que poseen los modulos de ser utilizados nuevamente en otro momento, lo cual posteriormente da pie a la recursividad.
+esta reusabilidad, es beneficiosa para el programa, ya que asi se ahorran lineas de codigo, asi como usos de memoria
+
+
+3)a)la estructura de datos es la forma en la que el programa anida la informacion en base a las equivalencias logicas que poseen, para de esta forma hacer mas eficiente su utilizacion detro del programa
+
+b)durante el curso se vieron 3 estructuras de datos, los registros, las listas y los vectores
+los registros poseen la capacidad de almacenar informacion de distintos valores (char, string, integer,etc) por lo que son comunmentes llamados por las otras estructuras de datos, pese a esto, su capacidad de almacenamiento es demaciado reducida ya que la cantidad de datos es limitada desde su declaracion y cada pocision de memoria debe tener un nombre diferente para su llamado
+los vectores, a diferencia de los registros, solo pueden almacenar datos de 1 tipo (string, integer, char,etc), pese a esto, estos son capaces de mostrar la informacion almacenada en cualquier pocision sin necesidad de recorrer los otros
+las listas poseen la capacidad de almacenar infinitamente datos, a diferencia de las otras dos estructuras de datos, el problema de estas es que en caso de requerir un dato, es necesario recorrer toda la lista hasta la posicion en que este dato recide
+
+c)arreglo 1.revisar si posee espacio para otro valor
+2.en caso de ser posible mover el resto de valores hacia su casillero siguiente, para dejar "libre" el espacio donde este valor sera introducido
+3.introducir el valor en el espacio
+
+lista 1.despalzarse hasta la pocicion en la que se quiere insertar el dato
+2.modificar el valor siguiente como el dato a insertar
+3.modificar el valor siguiente del dato a insertar com el siguiente a la lista
+
+
+e)la dimencion fisica es la cantidad de valores o datos que el arreglo puede almacenar, mientras que la dimencion logica es la cantidad de datos que el arreglo posee actualmente
+
+f)nil es una pocision de memoria nula, por lo que al hacer que un puntero apunte a esto significa que el puntero posee un valor nulo, por otro lado dispose proboca la eliminacion del puntero y de su valor, por lo que este debera crear un nuevo espacio de memoria si quiere apuntar nuevamente, en ambos casos se pierde el valor que poseian anteriormente, pero en el caso del dispose, el valor se encuentra eliminado
+
+g)al utilizar una variable global, se corre el riesgo de que algun proceso modifique esta variable por accidente, ocacionando la perdida del valor que poseia con anterioridad
+
+g2)al utilizar un parametro, se posee la capacidad de modificar la variable por valor sin miedo a que esta se modifique en el programa principal
+
+h)valida,ya que ambos poseen el mismo tipo de dato
+nula, ya que la comparacion entre registros debe ser dato por dato
+nula, la lectura de un registro debe ser dato por dato
+nula, el imprimir un registro directamente no es posible, solo su impresion parte por parte
+
+i)al hacer esto, el programador asi como el programa conocen el momento en el que (por ejemplo) se deja de introducir informacion y se debe iniciar con el resto de procesos, otro uso que posee es el evitar loops innecesarios que estanquen el programa
+
+
+4)a)al hacer esto, le permite al programador el agilizar su programa, ademas de darle la posibilidad de utilizar variables con nombres cuya descripcion sea clara, permitiendole un mejor mantenimiento del codigo, asi como un mejor entendimiento de este
+
+b)un lenguaje fuertemente typado como pascal o C++, posee la caracteristica de hacer que el programador declare sus variables de cierta forma, ya sea con "int" o "char" por ejemplo, mientras que en los lenguajes dinamicamente typados, las variables poseen mayor livertad al programador, siendo el programa el que entiende que tipo de dato poseen cada valor
+
+c)una solucion es correcta si cumple con los requerimentos dados, para verificar estos requerimentos existen 4 metodos
+
+-verification, como indica su nombre, se trata de verificar si el programa cumple con estos requerimentos
+
+-debuggin, se trata de la correccion de errores que el programa podria tener
+
+-walkthrougs, son aquellas expocisiones del programa hacia un publico determinado, buscando asi errores en este
+
+-testing, es el correr el programa, utilizando distintas variables posibles, asi como las "variables limite" que el programa puede llegar a poseer
+
+
+Made By pez
+
+
+
+
+
+
+
+ 
+     

@@ -1,0 +1,82 @@
+1) Eficiencia
+
+a-definir el concepto
+
+b-que se tiene en cuenta para analizar la eficiencia de un algoritmo?
+
+c-como se calculan uso de memoria y tiempo de ejecucion (suele ser "calcular" y un programa)
+
+d-toda solucion correcta es eficiente?
+
+e-las estructuras de datos elegidas determinan que una solucion sea eficiente?
+
+f-un programa bien documentado asegura eficiencia?
+
+g-un programa modularizado asegura eficiencia?
+
+
+
+2) Modularizacion y Parametro
+
+a-defina el concepto de modularizacion y sus ventajas 
+
+b-que modulos dispone pascaly en que casos se usarian? (detalle al menos 3 diferencias)
+
+c-todo modulo procedure se puede escribir como una funcion? 
+
+d-siempre se puede transformar un modulo de funcion en un modulo tipo procedure?
+
+e-analice los medios de comunicacion entre los modulos
+
+f-defina alcance de una variable (que alcance tiene un parametro?)
+
+g-diferencias entre variable global y variable local
+
+h-defina el concepto de parametro en el contexto de la modularizacion
+
+i-diferencias entre parametros por valor y por referencia
+
+j-¿Por qué cree que es util para el programador contar con los parametros para escribir soluciones modularizadas?.
+
+k-que es la reusabilidad en la modularizacion?
+
+
+
+3) Estructura de Datos
+
+a-Defina el concepto.
+ 
+b-realice un cuadro con los criterios de clasificacion ubicando a las estructuras de datos vistas en el curso
+
+b2-defina y diferencie las estructuras de datos: registro, vector y lista enlazada (dar mas importancia a las 2 ultimas)
+
+c-Plantee la operacion de Insersion de un elemento en la estructura de datos lista y arreglo
+
+d-realice un analisis del tiempo de ejecucion de las operaciones implementadas en el punto c
+
+e-diferencia entre dimencion logica y fisica? justificar su uso
+
+f-diferencia entre DISPOSE y NIL?
+
+g-cual es el riesgo de usar variables globales para la comunicacion entre modulos?
+
+g2-justifique porque es conveniente usar un parametro por referencia en lugar de una variable global
+
+h-dadas dos variables A y B de tipo registro, indicar si las operaciones A:=B, A=B, READ(A), WRITE(B) son correctas (justificar
+
+i-cual es el objetivo de aplicar la algoritmica de corte de control sobre una estructura de datos
+
+
+
+4) Otras_: (no sabia donde ubicarlas
+
+a-explique cual es la importancia de que el lenguaje permita tipos de datos definidos por el usuario
+
+b-que diferencia hay entre un lenguaje "fuertemente" tipado con uno "dinamicamente" tipado?
+
+c-toda solucion es correcta? justifique
+
+Made By pez
+
+
+
