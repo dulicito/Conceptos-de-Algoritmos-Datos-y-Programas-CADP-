@@ -1,4 +1,4 @@
-# Practica 2 (Parte 1) - Funciones y procedimientos 
+۶ৎ# Practica 2 (Parte 1) - Funciones y procedimientos 
 
 ### 1. Dado el siguiente programa, indicar qué imprime.
 ~~~
